@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="build/react.js"></script>
+    <script src="build/JSXTransformer.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div id="badge"></div>
+    <script type="text/jsx">
+      var Badge = React.createClass({
+          getDefaultProps: function() {
+              return {
+                  badge: 4,
+                  label: "Messages"
+              }
+          },
+          render: function() {
+              return <button className="btn btn-primary" type="button">
+        {this.props.label} <span className="badge">{this.props.badge}</span>
+        </button>
+          }
+      });
+
+var Form = React.createClass({
+    render: function() {
+        return <div>
+        <Badge title='Index' number="5" />
+        </div>
+    }
+});
+  //    var badge = React.createElement(Badge, { label: "Booty Count", badge: 100});
+
+  var form = React.createElement(Form)
+
+
+
+
+      React.render(form, document.getElementById('badge'));
+    </script>
+  </body>
+</html>

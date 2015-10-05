@@ -1,0 +1,666 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node-v4.0.0-linux-x64/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react' ]
+2 info using npm@3.3.5
+3 info using node@v4.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react
+8 silly fetchNamedPackageData react
+9 silly mapToRegistry name react
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/react
+13 verbose request uri https://registry.npmjs.org/react
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:24:31 PM
+16 verbose request id d7ad666cb7147b86
+17 verbose etag "64VVBFWXVIMRAYZB4YGMF631K"
+18 http request GET https://registry.npmjs.org/react
+19 http 304 https://registry.npmjs.org/react
+20 verbose headers { date: 'Mon, 05 Oct 2015 03:24:31 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=60',
+20 verbose headers   etag: '"64VVBFWXVIMRAYZB4YGMF631K"',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ord1727-ORD',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1444015471.906806,VS0,VE45',
+20 verbose headers   vary: 'Accept' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Mon, 05 Oct 2015 03:24:31 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=60',
+21 silly get     etag: '"64VVBFWXVIMRAYZB4YGMF631K"',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ord1727-ORD',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1444015471.906806,VS0,VE45',
+21 silly get     vary: 'Accept' } ]
+22 verbose etag https://registry.npmjs.org/react from cache
+23 verbose get saving react to /home/pricees/.npm/registry.npmjs.org/react/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule react@0.13.3 checking installable status
+37 silly cache add args [ 'react', null ]
+38 verbose cache add spec react
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'react',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'react',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: '*',
+39 silly cache add   type: 'range' }
+40 silly addNamed react@*
+41 verbose addNamed "*" is a valid semver range for react
+42 silly addNameRange { name: 'react', range: '*', hasData: false }
+43 silly mapToRegistry name react
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/react
+47 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+48 verbose get https://registry.npmjs.org/react not expired, no request
+49 silly addNameRange number 2 { name: 'react', range: '*', hasData: true }
+50 silly addNameRange versions [ 'react',
+50 silly addNameRange   [ '0.0.1',
+50 silly addNameRange     '0.0.2',
+50 silly addNameRange     '0.0.3',
+50 silly addNameRange     '0.1.2',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.2',
+50 silly addNameRange     '0.2.3',
+50 silly addNameRange     '0.2.4',
+50 silly addNameRange     '0.2.5',
+50 silly addNameRange     '0.2.6',
+50 silly addNameRange     '0.3.0',
+50 silly addNameRange     '0.3.4',
+50 silly addNameRange     '0.3.5',
+50 silly addNameRange     '0.5.0',
+50 silly addNameRange     '0.5.1',
+50 silly addNameRange     '0.5.2',
+50 silly addNameRange     '0.6.0',
+50 silly addNameRange     '0.6.1',
+50 silly addNameRange     '0.6.2',
+50 silly addNameRange     '0.6.3',
+50 silly addNameRange     '0.7.0',
+50 silly addNameRange     '0.7.1',
+50 silly addNameRange     '0.8.0',
+50 silly addNameRange     '0.9.0-rc1',
+50 silly addNameRange     '0.9.0',
+50 silly addNameRange     '0.10.0-rc1',
+50 silly addNameRange     '0.10.0',
+50 silly addNameRange     '0.11.0-rc1',
+50 silly addNameRange     '0.11.0',
+50 silly addNameRange     '0.11.1',
+50 silly addNameRange     '0.11.2',
+50 silly addNameRange     '0.12.0-rc1',
+50 silly addNameRange     '0.12.0',
+50 silly addNameRange     '0.12.1',
+50 silly addNameRange     '0.12.2',
+50 silly addNameRange     '0.13.0-alpha.1',
+50 silly addNameRange     '0.13.0-alpha.2',
+50 silly addNameRange     '0.13.0-beta.1',
+50 silly addNameRange     '0.13.0-beta.2',
+50 silly addNameRange     '0.13.0-rc1',
+50 silly addNameRange     '0.13.0-rc2',
+50 silly addNameRange     '0.13.0',
+50 silly addNameRange     '0.13.1',
+50 silly addNameRange     '0.13.2',
+50 silly addNameRange     '0.13.3',
+50 silly addNameRange     '0.14.0-alpha1',
+50 silly addNameRange     '0.14.0-alpha2',
+50 silly addNameRange     '0.14.0-alpha3',
+50 silly addNameRange     '0.14.0-beta1',
+50 silly addNameRange     '0.14.0-beta2',
+50 silly addNameRange     '0.14.0-beta3',
+50 silly addNameRange     '0.14.0-rc1' ] ]
+51 silly addNamed react@0.13.3
+52 verbose addNamed "0.13.3" is a plain semver version for react
+53 silly cache afterAdd react@0.13.3
+54 verbose afterAdd /home/pricees/.npm/react/0.13.3/package/package.json not in flight; writing
+55 verbose afterAdd /home/pricees/.npm/react/0.13.3/package/package.json written
+56 silly fetchNamedPackageData envify
+57 silly mapToRegistry name envify
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/envify
+61 verbose request uri https://registry.npmjs.org/envify
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 10:24:35 PM
+64 verbose etag "C016I5GCRR6E0MFJ7ZNARCJ1T"
+65 http request GET https://registry.npmjs.org/envify
+66 http 304 https://registry.npmjs.org/envify
+67 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   'cache-control': 'max-age=60',
+67 verbose headers   etag: '"C016I5GCRR6E0MFJ7ZNARCJ1T"',
+67 verbose headers   age: '55',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+67 verbose headers   'x-cache': 'HIT',
+67 verbose headers   'x-cache-hits': '1',
+67 verbose headers   'x-timer': 'S1444015475.104347,VS0,VE0',
+67 verbose headers   vary: 'Accept' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+68 silly get     via: '1.1 varnish',
+68 silly get     'cache-control': 'max-age=60',
+68 silly get     etag: '"C016I5GCRR6E0MFJ7ZNARCJ1T"',
+68 silly get     age: '55',
+68 silly get     connection: 'keep-alive',
+68 silly get     'x-served-by': 'cache-ord1734-ORD',
+68 silly get     'x-cache': 'HIT',
+68 silly get     'x-cache-hits': '1',
+68 silly get     'x-timer': 'S1444015475.104347,VS0,VE0',
+68 silly get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/envify from cache
+70 verbose get saving envify to /home/pricees/.npm/registry.npmjs.org/envify/.cache.json
+71 silly resolveWithNewModule envify@3.4.0 checking installable status
+72 silly cache add args [ 'envify@^3.0.0', null ]
+73 verbose cache add spec envify@^3.0.0
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'envify@^3.0.0',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'envify',
+74 silly cache add   rawSpec: '^3.0.0',
+74 silly cache add   spec: '>=3.0.0 <4.0.0',
+74 silly cache add   type: 'range' }
+75 silly addNamed envify@>=3.0.0 <4.0.0
+76 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for envify
+77 silly addNameRange { name: 'envify', range: '>=3.0.0 <4.0.0', hasData: false }
+78 silly mapToRegistry name envify
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/envify
+82 verbose addNameRange registry:https://registry.npmjs.org/envify not in flight; fetching
+83 verbose get https://registry.npmjs.org/envify not expired, no request
+84 silly addNameRange number 2 { name: 'envify', range: '>=3.0.0 <4.0.0', hasData: true }
+85 silly addNameRange versions [ 'envify',
+85 silly addNameRange   [ '0.0.1',
+85 silly addNameRange     '0.1.0',
+85 silly addNameRange     '0.2.0',
+85 silly addNameRange     '1.0.0',
+85 silly addNameRange     '1.0.1',
+85 silly addNameRange     '1.1.0',
+85 silly addNameRange     '1.2.0',
+85 silly addNameRange     '1.2.1',
+85 silly addNameRange     '2.0.0',
+85 silly addNameRange     '2.0.1',
+85 silly addNameRange     '3.0.0',
+85 silly addNameRange     '3.1.0',
+85 silly addNameRange     '3.2.0',
+85 silly addNameRange     '3.3.0',
+85 silly addNameRange     '3.3.1',
+85 silly addNameRange     '3.4.0' ] ]
+86 silly addNamed envify@3.4.0
+87 verbose addNamed "3.4.0" is a plain semver version for envify
+88 silly cache afterAdd envify@3.4.0
+89 verbose afterAdd /home/pricees/.npm/envify/3.4.0/package/package.json not in flight; writing
+90 verbose afterAdd /home/pricees/.npm/envify/3.4.0/package/package.json written
+91 silly fetchNamedPackageData through
+92 silly mapToRegistry name through
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/through
+96 silly fetchNamedPackageData jstransform
+97 silly mapToRegistry name jstransform
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/jstransform
+101 verbose request uri https://registry.npmjs.org/jstransform
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 10:24:35 PM
+104 verbose etag "47B7F6QLHW6K515EWMAOJ4LOW"
+105 http request GET https://registry.npmjs.org/jstransform
+106 verbose request uri https://registry.npmjs.org/through
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:24:35 PM
+109 verbose etag "3OQAPM245BT6G1TW55EK7N7LX"
+110 http request GET https://registry.npmjs.org/through
+111 http 304 https://registry.npmjs.org/jstransform
+112 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+112 verbose headers   via: '1.1 varnish',
+112 verbose headers   'cache-control': 'max-age=60',
+112 verbose headers   etag: '"47B7F6QLHW6K515EWMAOJ4LOW"',
+112 verbose headers   age: '54',
+112 verbose headers   connection: 'keep-alive',
+112 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+112 verbose headers   'x-cache': 'HIT',
+112 verbose headers   'x-cache-hits': '1',
+112 verbose headers   'x-timer': 'S1444015475.185472,VS0,VE0',
+112 verbose headers   vary: 'Accept' }
+113 silly get cb [ 304,
+113 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+113 silly get     via: '1.1 varnish',
+113 silly get     'cache-control': 'max-age=60',
+113 silly get     etag: '"47B7F6QLHW6K515EWMAOJ4LOW"',
+113 silly get     age: '54',
+113 silly get     connection: 'keep-alive',
+113 silly get     'x-served-by': 'cache-ord1724-ORD',
+113 silly get     'x-cache': 'HIT',
+113 silly get     'x-cache-hits': '1',
+113 silly get     'x-timer': 'S1444015475.185472,VS0,VE0',
+113 silly get     vary: 'Accept' } ]
+114 verbose etag https://registry.npmjs.org/jstransform from cache
+115 verbose get saving jstransform to /home/pricees/.npm/registry.npmjs.org/jstransform/.cache.json
+116 http 304 https://registry.npmjs.org/through
+117 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   'cache-control': 'max-age=60',
+117 verbose headers   etag: '"3OQAPM245BT6G1TW55EK7N7LX"',
+117 verbose headers   age: '33',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-ord1734-ORD',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '1',
+117 verbose headers   'x-timer': 'S1444015475.187540,VS0,VE0',
+117 verbose headers   vary: 'Accept' }
+118 silly get cb [ 304,
+118 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=60',
+118 silly get     etag: '"3OQAPM245BT6G1TW55EK7N7LX"',
+118 silly get     age: '33',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-ord1734-ORD',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '1',
+118 silly get     'x-timer': 'S1444015475.187540,VS0,VE0',
+118 silly get     vary: 'Accept' } ]
+119 verbose etag https://registry.npmjs.org/through from cache
+120 verbose get saving through to /home/pricees/.npm/registry.npmjs.org/through/.cache.json
+121 silly resolveWithNewModule jstransform@10.1.0 checking installable status
+122 silly cache add args [ 'jstransform@^10.0.1', null ]
+123 verbose cache add spec jstransform@^10.0.1
+124 silly cache add parsed spec Result {
+124 silly cache add   raw: 'jstransform@^10.0.1',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'jstransform',
+124 silly cache add   rawSpec: '^10.0.1',
+124 silly cache add   spec: '>=10.0.1 <11.0.0',
+124 silly cache add   type: 'range' }
+125 silly addNamed jstransform@>=10.0.1 <11.0.0
+126 verbose addNamed ">=10.0.1 <11.0.0" is a valid semver range for jstransform
+127 silly addNameRange { name: 'jstransform',
+127 silly addNameRange   range: '>=10.0.1 <11.0.0',
+127 silly addNameRange   hasData: false }
+128 silly mapToRegistry name jstransform
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/jstransform
+132 verbose addNameRange registry:https://registry.npmjs.org/jstransform not in flight; fetching
+133 silly resolveWithNewModule through@2.3.8 checking installable status
+134 silly cache add args [ 'through@~2.3.4', null ]
+135 verbose cache add spec through@~2.3.4
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'through@~2.3.4',
+136 silly cache add   scope: null,
+136 silly cache add   name: 'through',
+136 silly cache add   rawSpec: '~2.3.4',
+136 silly cache add   spec: '>=2.3.4 <2.4.0',
+136 silly cache add   type: 'range' }
+137 silly addNamed through@>=2.3.4 <2.4.0
+138 verbose addNamed ">=2.3.4 <2.4.0" is a valid semver range for through
+139 silly addNameRange { name: 'through', range: '>=2.3.4 <2.4.0', hasData: false }
+140 silly mapToRegistry name through
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/through
+144 verbose addNameRange registry:https://registry.npmjs.org/through not in flight; fetching
+145 verbose get https://registry.npmjs.org/through not expired, no request
+146 silly addNameRange number 2 { name: 'through', range: '>=2.3.4 <2.4.0', hasData: true }
+147 silly addNameRange versions [ 'through',
+147 silly addNameRange   [ '0.0.1',
+147 silly addNameRange     '0.0.2',
+147 silly addNameRange     '0.0.3',
+147 silly addNameRange     '0.0.4',
+147 silly addNameRange     '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.1.2',
+147 silly addNameRange     '0.1.3',
+147 silly addNameRange     '0.1.4',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '2.0.0',
+147 silly addNameRange     '2.1.0',
+147 silly addNameRange     '2.2.0',
+147 silly addNameRange     '2.2.1',
+147 silly addNameRange     '2.2.2',
+147 silly addNameRange     '2.2.4',
+147 silly addNameRange     '2.2.5',
+147 silly addNameRange     '2.2.6',
+147 silly addNameRange     '2.2.7',
+147 silly addNameRange     '2.3.1',
+147 silly addNameRange     '2.3.2',
+147 silly addNameRange     '2.3.3',
+147 silly addNameRange     '2.3.4',
+147 silly addNameRange     '2.3.6',
+147 silly addNameRange     '2.3.7',
+147 silly addNameRange     '2.3.8' ] ]
+148 silly addNamed through@2.3.8
+149 verbose addNamed "2.3.8" is a plain semver version for through
+150 verbose get https://registry.npmjs.org/jstransform not expired, no request
+151 silly addNameRange number 2 { name: 'jstransform', range: '>=10.0.1 <11.0.0', hasData: true }
+152 silly addNameRange versions [ 'jstransform',
+152 silly addNameRange   [ '1.0.0',
+152 silly addNameRange     '1.0.1',
+152 silly addNameRange     '2.0.1',
+152 silly addNameRange     '2.0.2',
+152 silly addNameRange     '2.0.3',
+152 silly addNameRange     '3.0.0',
+152 silly addNameRange     '4.0.0',
+152 silly addNameRange     '4.0.1',
+152 silly addNameRange     '5.0.0',
+152 silly addNameRange     '6.0.0',
+152 silly addNameRange     '6.0.1',
+152 silly addNameRange     '6.1.0',
+152 silly addNameRange     '6.2.0',
+152 silly addNameRange     '6.3.0',
+152 silly addNameRange     '6.3.2',
+152 silly addNameRange     '7.0.0',
+152 silly addNameRange     '8.0.0',
+152 silly addNameRange     '8.1.0',
+152 silly addNameRange     '8.2.0',
+152 silly addNameRange     '9.0.0',
+152 silly addNameRange     '9.1.0',
+152 silly addNameRange     '9.1.1',
+152 silly addNameRange     '10.0.0',
+152 silly addNameRange     '10.0.1',
+152 silly addNameRange     '10.1.0',
+152 silly addNameRange     '11.0.0',
+152 silly addNameRange     '11.0.1',
+152 silly addNameRange     '11.0.2',
+152 silly addNameRange     '11.0.3' ] ]
+153 silly addNamed jstransform@10.1.0
+154 verbose addNamed "10.1.0" is a plain semver version for jstransform
+155 silly cache afterAdd through@2.3.8
+156 verbose afterAdd /home/pricees/.npm/through/2.3.8/package/package.json not in flight; writing
+157 silly cache afterAdd jstransform@10.1.0
+158 verbose afterAdd /home/pricees/.npm/jstransform/10.1.0/package/package.json not in flight; writing
+159 verbose afterAdd /home/pricees/.npm/jstransform/10.1.0/package/package.json written
+160 verbose afterAdd /home/pricees/.npm/through/2.3.8/package/package.json written
+161 silly fetchNamedPackageData base62
+162 silly mapToRegistry name base62
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/base62
+166 silly fetchNamedPackageData esprima-fb
+167 silly mapToRegistry name esprima-fb
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry uri https://registry.npmjs.org/esprima-fb
+171 silly fetchNamedPackageData source-map
+172 silly mapToRegistry name source-map
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/source-map
+176 verbose request uri https://registry.npmjs.org/esprima-fb
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 10:24:35 PM
+179 verbose etag "3E6H6NMDA2ULGJP0NOLZPJ80G"
+180 http request GET https://registry.npmjs.org/esprima-fb
+181 verbose request uri https://registry.npmjs.org/base62
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 10:24:35 PM
+184 verbose etag "BQZ7WJ20DXU0D6FF0L2UQ5RG9"
+185 http request GET https://registry.npmjs.org/base62
+186 verbose request uri https://registry.npmjs.org/source-map
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 10:24:35 PM
+189 verbose etag "42K53LDDF1ONWC2DR3KJYJZ8J"
+190 http request GET https://registry.npmjs.org/source-map
+191 http 304 https://registry.npmjs.org/esprima-fb
+192 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+192 verbose headers   via: '1.1 varnish',
+192 verbose headers   'cache-control': 'max-age=60',
+192 verbose headers   etag: '"3E6H6NMDA2ULGJP0NOLZPJ80G"',
+192 verbose headers   age: '53',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'x-served-by': 'cache-ord1721-ORD',
+192 verbose headers   'x-cache': 'HIT',
+192 verbose headers   'x-cache-hits': '1',
+192 verbose headers   'x-timer': 'S1444015475.324253,VS0,VE0',
+192 verbose headers   vary: 'Accept' }
+193 silly get cb [ 304,
+193 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+193 silly get     via: '1.1 varnish',
+193 silly get     'cache-control': 'max-age=60',
+193 silly get     etag: '"3E6H6NMDA2ULGJP0NOLZPJ80G"',
+193 silly get     age: '53',
+193 silly get     connection: 'keep-alive',
+193 silly get     'x-served-by': 'cache-ord1721-ORD',
+193 silly get     'x-cache': 'HIT',
+193 silly get     'x-cache-hits': '1',
+193 silly get     'x-timer': 'S1444015475.324253,VS0,VE0',
+193 silly get     vary: 'Accept' } ]
+194 verbose etag https://registry.npmjs.org/esprima-fb from cache
+195 verbose get saving esprima-fb to /home/pricees/.npm/registry.npmjs.org/esprima-fb/.cache.json
+196 silly resolveWithNewModule esprima-fb@13001.1001.0-dev-harmony-fb checking installable status
+197 silly cache add args [ 'esprima-fb@13001.1001.0-dev-harmony-fb', null ]
+198 verbose cache add spec esprima-fb@13001.1001.0-dev-harmony-fb
+199 silly cache add parsed spec Result {
+199 silly cache add   raw: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+199 silly cache add   scope: null,
+199 silly cache add   name: 'esprima-fb',
+199 silly cache add   rawSpec: '13001.1001.0-dev-harmony-fb',
+199 silly cache add   spec: '13001.1001.0-dev-harmony-fb',
+199 silly cache add   type: 'version' }
+200 silly addNamed esprima-fb@13001.1001.0-dev-harmony-fb
+201 verbose addNamed "13001.1001.0-dev-harmony-fb" is a plain semver version for esprima-fb
+202 silly mapToRegistry name esprima-fb
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry uri https://registry.npmjs.org/esprima-fb
+206 verbose addNameVersion registry:https://registry.npmjs.org/esprima-fb not in flight; fetching
+207 verbose get https://registry.npmjs.org/esprima-fb not expired, no request
+208 http 304 https://registry.npmjs.org/source-map
+209 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+209 verbose headers   via: '1.1 varnish',
+209 verbose headers   'cache-control': 'max-age=60',
+209 verbose headers   etag: '"42K53LDDF1ONWC2DR3KJYJZ8J"',
+209 verbose headers   age: '41',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'x-served-by': 'cache-ord1730-ORD',
+209 verbose headers   'x-cache': 'HIT',
+209 verbose headers   'x-cache-hits': '3',
+209 verbose headers   'x-timer': 'S1444015475.331646,VS0,VE0',
+209 verbose headers   vary: 'Accept' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     'cache-control': 'max-age=60',
+210 silly get     etag: '"42K53LDDF1ONWC2DR3KJYJZ8J"',
+210 silly get     age: '41',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-ord1730-ORD',
+210 silly get     'x-cache': 'HIT',
+210 silly get     'x-cache-hits': '3',
+210 silly get     'x-timer': 'S1444015475.331646,VS0,VE0',
+210 silly get     vary: 'Accept' } ]
+211 verbose etag https://registry.npmjs.org/source-map from cache
+212 verbose get saving source-map to /home/pricees/.npm/registry.npmjs.org/source-map/.cache.json
+213 silly cache afterAdd esprima-fb@13001.1001.0-dev-harmony-fb
+214 verbose afterAdd /home/pricees/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package/package.json not in flight; writing
+215 verbose afterAdd /home/pricees/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package/package.json written
+216 silly resolveWithNewModule source-map@0.1.31 checking installable status
+217 silly cache add args [ 'source-map@0.1.31', null ]
+218 verbose cache add spec source-map@0.1.31
+219 silly cache add parsed spec Result {
+219 silly cache add   raw: 'source-map@0.1.31',
+219 silly cache add   scope: null,
+219 silly cache add   name: 'source-map',
+219 silly cache add   rawSpec: '0.1.31',
+219 silly cache add   spec: '0.1.31',
+219 silly cache add   type: 'version' }
+220 silly addNamed source-map@0.1.31
+221 verbose addNamed "0.1.31" is a plain semver version for source-map
+222 silly mapToRegistry name source-map
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/source-map
+226 verbose addNameVersion registry:https://registry.npmjs.org/source-map not in flight; fetching
+227 http 304 https://registry.npmjs.org/base62
+228 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+228 verbose headers   via: '1.1 varnish',
+228 verbose headers   'cache-control': 'max-age=60',
+228 verbose headers   etag: '"BQZ7WJ20DXU0D6FF0L2UQ5RG9"',
+228 verbose headers   age: '53',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+228 verbose headers   'x-cache': 'HIT',
+228 verbose headers   'x-cache-hits': '2',
+228 verbose headers   'x-timer': 'S1444015475.337892,VS0,VE0',
+228 verbose headers   vary: 'Accept' }
+229 silly get cb [ 304,
+229 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+229 silly get     via: '1.1 varnish',
+229 silly get     'cache-control': 'max-age=60',
+229 silly get     etag: '"BQZ7WJ20DXU0D6FF0L2UQ5RG9"',
+229 silly get     age: '53',
+229 silly get     connection: 'keep-alive',
+229 silly get     'x-served-by': 'cache-ord1722-ORD',
+229 silly get     'x-cache': 'HIT',
+229 silly get     'x-cache-hits': '2',
+229 silly get     'x-timer': 'S1444015475.337892,VS0,VE0',
+229 silly get     vary: 'Accept' } ]
+230 verbose etag https://registry.npmjs.org/base62 from cache
+231 verbose get saving base62 to /home/pricees/.npm/registry.npmjs.org/base62/.cache.json
+232 verbose get https://registry.npmjs.org/source-map not expired, no request
+233 silly resolveWithNewModule base62@0.1.1 checking installable status
+234 silly cache add args [ 'base62@0.1.1', null ]
+235 verbose cache add spec base62@0.1.1
+236 silly cache add parsed spec Result {
+236 silly cache add   raw: 'base62@0.1.1',
+236 silly cache add   scope: null,
+236 silly cache add   name: 'base62',
+236 silly cache add   rawSpec: '0.1.1',
+236 silly cache add   spec: '0.1.1',
+236 silly cache add   type: 'version' }
+237 silly addNamed base62@0.1.1
+238 verbose addNamed "0.1.1" is a plain semver version for base62
+239 silly mapToRegistry name base62
+240 silly mapToRegistry using default registry
+241 silly mapToRegistry registry https://registry.npmjs.org/
+242 silly mapToRegistry uri https://registry.npmjs.org/base62
+243 verbose addNameVersion registry:https://registry.npmjs.org/base62 not in flight; fetching
+244 silly cache afterAdd source-map@0.1.31
+245 verbose afterAdd /home/pricees/.npm/source-map/0.1.31/package/package.json not in flight; writing
+246 verbose get https://registry.npmjs.org/base62 not expired, no request
+247 verbose afterAdd /home/pricees/.npm/source-map/0.1.31/package/package.json written
+248 silly cache afterAdd base62@0.1.1
+249 verbose afterAdd /home/pricees/.npm/base62/0.1.1/package/package.json not in flight; writing
+250 verbose afterAdd /home/pricees/.npm/base62/0.1.1/package/package.json written
+251 silly fetchNamedPackageData amdefine
+252 silly mapToRegistry name amdefine
+253 silly mapToRegistry using default registry
+254 silly mapToRegistry registry https://registry.npmjs.org/
+255 silly mapToRegistry uri https://registry.npmjs.org/amdefine
+256 verbose request uri https://registry.npmjs.org/amdefine
+257 verbose request no auth needed
+258 info attempt registry request try #1 at 10:24:35 PM
+259 verbose etag "CQH8SW0THU42U5RKW7K6F1TRH"
+260 http request GET https://registry.npmjs.org/amdefine
+261 http 304 https://registry.npmjs.org/amdefine
+262 verbose headers { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+262 verbose headers   via: '1.1 varnish',
+262 verbose headers   'cache-control': 'max-age=60',
+262 verbose headers   etag: '"CQH8SW0THU42U5RKW7K6F1TRH"',
+262 verbose headers   age: '7',
+262 verbose headers   connection: 'keep-alive',
+262 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+262 verbose headers   'x-cache': 'HIT',
+262 verbose headers   'x-cache-hits': '1',
+262 verbose headers   'x-timer': 'S1444015475.434715,VS0,VE0',
+262 verbose headers   vary: 'Accept' }
+263 silly get cb [ 304,
+263 silly get   { date: 'Mon, 05 Oct 2015 03:24:35 GMT',
+263 silly get     via: '1.1 varnish',
+263 silly get     'cache-control': 'max-age=60',
+263 silly get     etag: '"CQH8SW0THU42U5RKW7K6F1TRH"',
+263 silly get     age: '7',
+263 silly get     connection: 'keep-alive',
+263 silly get     'x-served-by': 'cache-ord1720-ORD',
+263 silly get     'x-cache': 'HIT',
+263 silly get     'x-cache-hits': '1',
+263 silly get     'x-timer': 'S1444015475.434715,VS0,VE0',
+263 silly get     vary: 'Accept' } ]
+264 verbose etag https://registry.npmjs.org/amdefine from cache
+265 verbose get saving amdefine to /home/pricees/.npm/registry.npmjs.org/amdefine/.cache.json
+266 silly resolveWithNewModule amdefine@1.0.0 checking installable status
+267 silly cache add args [ 'amdefine@>=0.0.4', null ]
+268 verbose cache add spec amdefine@>=0.0.4
+269 silly cache add parsed spec Result {
+269 silly cache add   raw: 'amdefine@>=0.0.4',
+269 silly cache add   scope: null,
+269 silly cache add   name: 'amdefine',
+269 silly cache add   rawSpec: '>=0.0.4',
+269 silly cache add   spec: '>=0.0.4',
+269 silly cache add   type: 'range' }
+270 silly addNamed amdefine@>=0.0.4
+271 verbose addNamed ">=0.0.4" is a valid semver range for amdefine
+272 silly addNameRange { name: 'amdefine', range: '>=0.0.4', hasData: false }
+273 silly mapToRegistry name amdefine
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/amdefine
+277 verbose addNameRange registry:https://registry.npmjs.org/amdefine not in flight; fetching
+278 verbose get https://registry.npmjs.org/amdefine not expired, no request
+279 silly addNameRange number 2 { name: 'amdefine', range: '>=0.0.4', hasData: true }
+280 silly addNameRange versions [ 'amdefine',
+280 silly addNameRange   [ '0.0.1',
+280 silly addNameRange     '0.0.2',
+280 silly addNameRange     '0.0.3',
+280 silly addNameRange     '0.0.4',
+280 silly addNameRange     '0.0.5',
+280 silly addNameRange     '0.0.6',
+280 silly addNameRange     '0.0.7',
+280 silly addNameRange     '0.0.8',
+280 silly addNameRange     '0.1.0',
+280 silly addNameRange     '0.1.1',
+280 silly addNameRange     '1.0.0' ] ]
+281 silly addNamed amdefine@1.0.0
+282 verbose addNamed "1.0.0" is a plain semver version for amdefine
+283 silly cache afterAdd amdefine@1.0.0
+284 verbose afterAdd /home/pricees/.npm/amdefine/1.0.0/package/package.json not in flight; writing
+285 verbose afterAdd /home/pricees/.npm/amdefine/1.0.0/package/package.json written
+286 verbose stack TypeError: Cannot read property 'localeCompare' of undefined
+286 verbose stack     at installOrder (/usr/local/lib/node_modules/npm/lib/install/deps.js:241:32)
+286 verbose stack     at Array.sort (native)
+286 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:240:27
+286 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+286 verbose stack     at resolveWithExistingModule (/usr/local/lib/node_modules/npm/lib/install/deps.js:377:3)
+286 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:347:5
+286 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+286 verbose stack     at Array.forEach (native)
+286 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+286 verbose stack     at Array.forEach (native)
+287 verbose cwd /home/pricees/Desktop/react_tutorial/badge/src
+288 error Linux 3.19.0-30-generic
+289 error argv "/usr/local/node-v4.0.0-linux-x64/bin/node" "/usr/local/bin/npm" "install" "--save" "react"
+290 error node v4.0.0
+291 error npm  v3.3.5
+292 error Cannot read property 'localeCompare' of undefined
+293 error If you need help, you may report this error at:
+293 error     <https://github.com/npm/npm/issues>
+294 verbose exit [ 1, true ]
